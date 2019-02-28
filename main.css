@@ -1,4 +1,135 @@
+/*
+Komentar
+
+*/
+
 body {
-	background: #ff0000;
+	font: 12px arial;
+	background-color: #BBBBBB;
+	color: #777777;
+	background-image: url(images17.jpg);
+	/*background-repeat:repeat-x;*/
+	
 }
-jhacbskcz
+
+
+
+h1 {
+	font: 18px arial;	
+}
+
+
+#wrapper {
+	width: 779px; 
+	margin: auto;		
+}
+
+#header {
+	background-image : url(img/head.jpg);
+	width: 774px;
+	height: 350px;		
+	color: #444444;
+	text-align: left;	
+	padding-left: 5px;
+}
+
+#header h1 {
+	font: 24px arial;
+}
+
+#header p {
+	color: #777777;
+	text-align: center;	
+}
+#quicknav {	
+	width: 777px;
+	height: 30px;
+	background-color: #444444;	
+	color: #111111;
+	border: 1px solid #222222;
+	display: flex;
+	align-items: center;
+}
+#search {
+	    margin-top: 10px;
+}
+#quicklinks {
+	flex-grow:1;
+	text-align: center;
+}
+
+#quicklinks ul {
+	
+	list-style: none;
+	
+}
+
+#quicklinks li {
+	display: inline-block;
+	padding: 0 20px;
+}
+
+#quicklinks li a {
+	color:red;
+	font-size: 160%;
+}
+
+#navigation {
+	width: 225px;	
+	float: right;
+}
+.navigationblock  {
+	background:#ffffff;
+	padding:20px;
+	margin-bottom:10px;
+}
+.veca {
+	font-size:130%;
+	color:blue;
+}
+.veca a{
+	color: purple;
+}
+.manja li{
+	color: black;
+	font-size: 115%;
+}
+#main {
+	
+	width: 535px;
+	float: left;
+	background-color: #dddddd;
+	border-bottom: #999999 1px solid; 
+	border-left: #999999 1px solid; 
+	border-right: #999999 1px solid; 
+	border-top: #999999 0px solid; 
+	padding: 5px;
+	
+} 
+
+
+.article {
+	margin-bottom: 10px;
+	background-color: #ffffff;
+	border: #999999 1px solid;
+	padding: 15px;
+	text-align: justify;
+	text-indent: 0.5cm
+}
+
+h1.article  {
+	font: 24px arial;
+	text-align: right;
+		
+}
+.article  img{
+	float: right;
+	margin-left: 5px;
+	border: 1px solid #000000;
+	/*text-indent: 0.5cm;*/
+}
+
+
+
+
+
